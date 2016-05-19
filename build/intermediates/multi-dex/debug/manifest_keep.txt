@@ -1,0 +1,20 @@
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.example.arabicmapapp.MainActivity { <init>(); }
+-keep class com.example.arabicmapapp.PageCategoryActivity { <init>(); }
+-keep class com.example.arabicmapapp.SplashScreen { <init>(); }
+-keep class com.example.arabicmapapp.WebsiteView { <init>(); }
+-keep class com.example.arabicmapapp.DrawerScreen { <init>(); }
+-keep class com.example.arabicmapapp.FragmentFavourite { <init>(); }
+-keep class com.example.arabicmapapp.FragmentInfo { <init>(); }
+-keep class com.example.arabicmapapp.FragmentSearch { <init>(); }
+-keep class com.example.arabicmapapp.FragmentSetting { <init>(); }
+-keep class com.example.arabicmapapp.FragmentContactUs { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

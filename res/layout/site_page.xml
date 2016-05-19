@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   
+    android:descendantFocusability="blocksDescendants"
+    android:background="#F8F8F8"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+
+    <TextView
+        android:id="@+id/siteHeading"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_gravity="right"  
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold" 
+        android:textColor="#000000"/>
+
+<!--      <TextView
+        android:id="@+id/siteSub_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="ملخص الموقع" 
+        android:textColor="#ACABAB" /> -->
+
+    <Button
+        android:id="@+id/buttonShare"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="62dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="10dp"
+        android:text="مشاركة"
+        android:background="@layout/rounded_button_favourite" />
+
+    <Button
+        android:id="@+id/buttonCopy"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="62dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="75dp"
+        android:text="نسخ"
+        android:background="@layout/rounded_button_copy" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/row_hover"
+        android:layout_marginLeft="15dp" 
+        android:layout_gravity="left"/>
+
+    <Button
+        android:id="@+id/buttonFavourite"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="67dp"
+        android:layout_height="25dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="140dp"
+        android:text="المفضلة" 
+        android:background="@layout/rounded_button_favourite"/>
+    
+    
+        
+</FrameLayout>

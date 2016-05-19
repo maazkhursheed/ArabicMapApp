@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> دليل مواقع اللغة العربية</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_page_category">PageCategoryActivity</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_activity_favourites">FavouritesActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="share">مشاركة </string>
+    <string name="copy">نسخ</string>
+    <string name="unfavourite">ازالة من المفضلة</string>
+    <string name="side_menu_azaf">أضف موقعك</string>
+    <string name="Loading_message">انتظار</string>
+
+
+
+
+
+    <string-array name="arabic_utilities">
+        <item>الرئيسية</item>
+        <item>المفضلة</item>
+        <item>البحث</item>
+        <item>عن التطبيق </item>
+        <item>اتصل بنا</item>
+        <item>أضف موقعك</item>
+
+    </string-array>
+
+    <string name="title_activity_fragment_contact_us">FragmentContactUs</string>
+
+</resources>

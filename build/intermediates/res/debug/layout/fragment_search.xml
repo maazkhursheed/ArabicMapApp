@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+    <LinearLayout
+        android:id="@+id/editSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dp">
+        
+    <ImageView
+        android:id="@+id/imageSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/frag_search_green" 
+        android:layout_margin="8dp"
+        android:onClick="searchArabia"/>
+
+    <EditText
+        android:id="@+id/edit_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:layout_marginRight="7dp" 
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:imeActionLabel="@drawable/icon_search">
+
+        <requestFocus />
+    </EditText>
+    
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/site_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/editSearch" 
+        android:divider="#FFFFFF"
+        android:dividerHeight="8dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Maaz/IntelliJIDEAProjects/ArabicApp/arabicmapapp/res/layout/fragment_search.xml -->

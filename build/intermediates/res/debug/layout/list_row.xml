@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" 
+    android:textColor="#fff"
+    android:background="@layout/list_selector">
+ 
+   
+    
+    <!-- Title Of content -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="70dp"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
+    
+     <!-- Left main content -->
+    <TextView
+        android:id="@+id/sub_title"
+        android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="right"
+	    android:layout_marginTop="38dp"
+	    android:layout_marginRight="70dp"
+	   
+	    android:textColor="#fff"/>
+ 
+     <!-- Leftend Arrow -->
+     <ImageView
+        android:id="@+id/left_arrow" 
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/left_arrow"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="left"
+        android:layout_marginLeft="15dp"
+    
+        android:layout_marginTop="35dp"/>
+
+     <ImageView
+         android:id="@+id/list_image"
+         android:layout_width="60dip"
+         android:layout_height="60dip"
+         android:layout_gravity="right"
+         android:layout_marginTop="30dp"
+          />
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/like_icon"
+         android:layout_marginTop="70dp"
+	     android:layout_gravity="right"
+	     android:layout_marginRight="70dp" />
+
+     <TextView
+         android:id="@+id/textView_like"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         
+         android:layout_marginTop="70dp"
+	     android:layout_gravity="right"
+	     android:layout_marginRight="105dp" 
+	     android:textColor="#fff"/>
+
+     <ImageView
+         android:id="@+id/imageView2"
+         android:layout_width="wrap_content"
+         android:layout_height="20dp"
+         android:src="@drawable/views_icon"
+         android:layout_marginTop="70dp"
+	     android:layout_gravity="right"
+	     android:layout_marginRight="145dp" />
+
+     <TextView
+         android:id="@+id/textViews"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        
+         android:layout_marginTop="70dp"
+	     android:layout_gravity="right"
+	     android:layout_marginRight="185dp" 
+	     android:textColor="#fff" 
+	     />
+
+</FrameLayout>
+<!-- From: file:/C:/Users/Maaz/IntelliJIDEAProjects/ArabicApp/arabicmapapp/res/layout/list_row.xml -->
